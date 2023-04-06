@@ -1,4 +1,4 @@
-const Page = require('./page');
+import Page from('./page.js');
 
 /**
  * sub page containing specific selectors and methods for a specific page
@@ -25,4 +25,4 @@ class KeyPressesPage extends Page {
     }
 }
 
-module.exports = new KeyPressesPage();
+export default new KeyPressesPage();
