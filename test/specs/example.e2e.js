@@ -1,5 +1,5 @@
-import LoginPage from('../pageobjects/login.page.js')
-import SecurePage from('../pageobjects/secure.page.js')
+import LoginPage from '../pageobjects/login.page.js';
+import SecurePage from '../pageobjects/secure.page.js';
 
 describe('My Login application', () => {
     xit('should login with valid credentials', async () => {
